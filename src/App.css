@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-barlow tracking-[-0.06em] text-white bg-[#1B2C1C];
+}
