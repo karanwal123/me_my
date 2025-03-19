@@ -1,28 +1,87 @@
 import React from "react";
-import { Github, Linkedin, Instagram, Twitter } from "lucide-react";
+import {
+  Github,
+  Linkedin,
+  Instagram,
+  Twitter,
+  BookOpenText,
+  Code2,
+} from "lucide-react";
 
 const Navbar = () => {
   return (
     <nav className="bg-transparent py-4 px-6 flex font-semibold justify-between items-center w-full">
       <div>
-        <button className="border border-lime-400 text-lime-400 px-6 py-2 rounded-md hover:bg-lime-400 hover:bg-opacity-10 transition-all duration-300">
+        <a
+          href="https://your-resume-link.com" // 🔹 Replace with your actual resume link
+          target="_blank"
+          rel="noopener noreferrer"
+          className="border border-lime-400 text-lime-400 px-6 py-2 rounded-md hover:bg-lime-400 hover:bg-opacity-10 transition-all duration-300"
+        >
           Resume
-        </button>
+        </a>
       </div>
 
       <div className="flex space-x-4">
-        <button className="text-lime-400 p-2 rounded-md hover:bg-lime-400 hover:bg-opacity-10 transition-all duration-300">
+        {/* GitHub */}
+        <a
+          href="https://github.com/karanwal123" // 🔹 Replace with your GitHub link
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-lime-400 p-2 rounded-md hover:bg-lime-400 hover:bg-opacity-10 transition-all duration-300"
+        >
           <Github size={24} />
-        </button>
-        <button className="text-lime-400 p-2 rounded-md hover:bg-lime-400 hover:bg-opacity-10 transition-all duration-300">
+        </a>
+
+        {/* LinkedIn */}
+        <a
+          href="https://www.linkedin.com/in/aditya-karanwal-37aa28292"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-lime-400 p-2 rounded-md hover:bg-lime-400 hover:bg-opacity-10 transition-all duration-300"
+        >
           <Linkedin size={24} />
-        </button>
-        <button className="text-lime-400 p-2 rounded-md hover:bg-lime-400 hover:bg-opacity-10 transition-all duration-300">
+        </a>
+
+        {/* Instagram */}
+        <a
+          href="https://x.com/aadi_says_whaa?t=IReYrQzhJn8a0sghbrWnmA&s=08"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-lime-400 p-2 rounded-md hover:bg-lime-400 hover:bg-opacity-10 transition-all duration-300"
+        >
           <Instagram size={24} />
-        </button>
-        <button className="text-lime-400 p-2 rounded-md hover:bg-lime-400 hover:bg-opacity-10 transition-all duration-300">
+        </a>
+
+        {/* Twitter */}
+        <a
+          href="https://x.com/aadi_says_whaa?t=IReYrQzhJn8a0sghbrWnmA&s=08"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-lime-400 p-2 rounded-md hover:bg-lime-400 hover:bg-opacity-10 transition-all duration-300"
+        >
           <Twitter size={24} />
-        </button>
+        </a>
+
+        {/* Notion Portfolio */}
+        <a
+          href="https://notion.so/your-portfolio-link" // 🔹 Replace with your Notion portfolio link
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-lime-400 p-2 rounded-md hover:bg-lime-400 hover:bg-opacity-10 transition-all duration-300"
+        >
+          <BookOpenText size={24} />
+        </a>
+
+        {/* LeetCode Profile */}
+        <a
+          href="https://leetcode.com/yourusername" // 🔹 Replace with your LeetCode profile link
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-lime-400 p-2 rounded-md hover:bg-lime-400 hover:bg-opacity-10 transition-all duration-300"
+        >
+          <Code2 size={24} />
+        </a>
       </div>
     </nav>
   );
