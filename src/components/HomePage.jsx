@@ -17,16 +17,16 @@ const HomePage = () => {
           }`}
         >
           <span className="text-lime-400 hover:text-lime-300 transition-colors duration-300 cursor-default">
-            CODE
+            CODE |
           </span>
           <span className="hover:text-lime-400 transition-colors duration-300 cursor-default">
-            DESIGN
+            DESIGN |
           </span>
           <span className="text-lime-400 hover:text-lime-300 transition-colors duration-300 cursor-default">
-            SLEEP
+            SLEEP |
           </span>
           <span className="hover:text-lime-400 transition-colors duration-300 cursor-default">
-            REPEAT
+            REPEAT |
           </span>
         </h1>
       </div>
