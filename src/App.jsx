@@ -3,7 +3,6 @@ import Navbar from "./components/Navbar";
 import "./App.css";
 import DynamicCursor from "./components/DynamicCursor";
 import HomePage from "./components/HomePage";
-import IntroBox from "./components/IntroBox";
 function App() {
   const [count, setCount] = useState(0);
 
@@ -12,7 +11,6 @@ function App() {
       <DynamicCursor />
       <Navbar />
       <HomePage />
-      <IntroBox />
     </div>
   );
 }
