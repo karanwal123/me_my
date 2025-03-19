@@ -4,6 +4,7 @@ import "./App.css";
 import DynamicCursor from "./components/DynamicCursor";
 import HomePage from "./components/HomePage";
 import Footer from "./components/Footer";
+// import Cards from "./components/Cards";
 function App() {
   const [count, setCount] = useState(0);
 
@@ -12,6 +13,7 @@ function App() {
       <DynamicCursor />
       <Navbar />
       <HomePage />
+
       <Footer />
     </div>
   );
