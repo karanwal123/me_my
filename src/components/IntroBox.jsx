@@ -1,6 +1,6 @@
 import React from "react";
 
-const IntoBox = () => {
+const IntroBox = () => {
   return (
     <div className="bg-red-500">
       <h1>hello</h1>
@@ -8,4 +8,4 @@ const IntoBox = () => {
   );
 };
 
-export default IntoBox;
+export default IntroBox;
