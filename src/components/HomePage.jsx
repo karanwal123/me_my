@@ -41,9 +41,10 @@ const HomePage = () => {
 
       {/* === Intro Section === */}
       <div className="border border-lime-400 rounded-lg p-8 bg-black bg-opacity-30 backdrop-blur-lg w-full max-w-4xl text-center shadow-lg">
-        <h2 className="text-lime-400 text-3xl font-semibold mb-4">
+        <h2 className="text-lime-400 text-4xl font-bold mb-6 tracking-wide transition-all duration-300 hover:drop-shadow-[0_0_10px_#a3e635]">
           A Quick Intro
         </h2>
+
         <p className="text-white text-lg leading-relaxed transition-all duration-500 hover:text-lime-300 hover:tracking-wide">
           I'm Aditya, a BTech Computer Science student at LNMIIT with a passion
           for design, development, and problem-solving. Skilled in React, Java,
