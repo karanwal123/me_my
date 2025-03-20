@@ -13,7 +13,7 @@ const Navbar = () => {
     <nav className="bg-transparent py-4 px-6 flex font-semibold justify-between items-center w-full">
       <div>
         <a
-          href="https://your-resume-link.com" // 🔹 Replace with your actual resume link
+          href="https://drive.google.com/file/d/1ezfng7hX8OKGAfxiU4hwne-tiCHojigk/view?usp=drive_link" // 🔹 Replace with your actual resume link
           target="_blank"
           rel="noopener noreferrer"
           className="border border-lime-400 text-lime-400 px-6 py-2 rounded-md hover:bg-lime-400 hover:bg-opacity-10 transition-all duration-300"
@@ -65,7 +65,7 @@ const Navbar = () => {
 
         {/* Notion Portfolio */}
         <a
-          href="https://notion.so/your-portfolio-link" // 🔹 Replace with your Notion portfolio link
+          href="https://www.notion.so/About-me-173c0f234b3e80688bbbfd1570fa7b41?pvs=4" // 🔹 Replace with your Notion portfolio link
           target="_blank"
           rel="noopener noreferrer"
           className="text-lime-400 p-2 rounded-md hover:bg-lime-400 hover:bg-opacity-10 transition-all duration-300"
@@ -75,7 +75,7 @@ const Navbar = () => {
 
         {/* LeetCode Profile */}
         <a
-          href="https://leetcode.com/yourusername" // 🔹 Replace with your LeetCode profile link
+          href="https://leetcode.com/u/aditya_karanwal/" // 🔹 Replace with your LeetCode profile link
           target="_blank"
           rel="noopener noreferrer"
           className="text-lime-400 p-2 rounded-md hover:bg-lime-400 hover:bg-opacity-10 transition-all duration-300"

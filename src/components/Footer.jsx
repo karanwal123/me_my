@@ -4,7 +4,7 @@ import { Github, Twitter, Linkedin, Instagram, Mail } from "lucide-react";
 const Footer = () => {
   return (
     <footer className="w-full bg-black bg-opacity-30 border-t border-lime-400 mt-20 relative overflow-hidden">
-      {/* Texture overlay */}
+      
       <div className="absolute inset-0 opacity-10">
         <div className="absolute w-full h-full">
           {[...Array(10)].map((_, i) => (
@@ -30,7 +30,7 @@ const Footer = () => {
 
       <div className="container mx-auto py-10 px-6 relative z-10">
         <div className="flex flex-col items-center justify-center space-y-8">
-          {/* Social icons */}
+          
           <div className="flex space-x-6">
             <a
               href="https://github.com/"
@@ -87,7 +87,7 @@ const Footer = () => {
             </a>
           </div>
 
-          {/* Credit line */}
+          
           <div className="text-center">
             <p className="text-white font-barlow text-sm">
               <span className="inline-block relative">
@@ -100,7 +100,7 @@ const Footer = () => {
             </p>
           </div>
 
-          {/* Subtle code line */}
+          
           <div className="w-full max-w-lg mx-auto pt-4 border-t border-lime-400 border-opacity-30">
             <p className="text-center text-gray-400 font-barlow text-xs">
               <span className="text-lime-400">&lt;</span>

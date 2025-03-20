@@ -33,7 +33,7 @@ const BackgroundBeams = () => {
 
       {/* Beam 3 */}
       <motion.div
-        className="absolute bottom-0 left-1/3 w-[280px] h-full bg-teal-700 opacity-35 blur-[120px]"
+        className="absolute bottom-0 left-1/3 w-[280px] h-full bg-teal-700 opacity-25 blur-[120px]"
         animate={{
           y: ["-6%", "6%", "-6%"],
           rotate: [0, 15, -15, 0],

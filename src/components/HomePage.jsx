@@ -11,7 +11,7 @@ const HomePage = () => {
 
   return (
     <div className="flex flex-col items-center min-h-screen text-white px-4 pt-10 space-y-20">
-      {/* === Main Text Section === */}
+      
       <div className="w-full flex justify-center">
         <h1
           className={`flex flex-wrap gap-6 text-7xl md:text-8xl font-extrabold tracking-tight text-center transition-all duration-700 ${
@@ -39,7 +39,7 @@ const HomePage = () => {
         </h1>
       </div>
 
-      {/* === Intro Section === */}
+     
       <div className="border border-lime-400 rounded-lg p-8 bg-black bg-opacity-30 backdrop-blur-lg w-full max-w-4xl text-center shadow-lg">
         <h2 className="text-lime-400 text-4xl font-bold mb-6 tracking-wide transition-all duration-300 hover:drop-shadow-[0_0_10px_#a3e635]">
           A Quick Intro
@@ -55,7 +55,7 @@ const HomePage = () => {
         </p>
       </div>
 
-      {/* === Cards Section (Properly Spaced) === */}
+          
       <div className="w-full max-w-6xl px-4">
         <Cards />
       </div>
