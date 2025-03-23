@@ -74,6 +74,34 @@ const Tech = () => {
       <div>
         <AnimatedQuoteBox />
       </div>
+
+      {/* Achievements Section */}
+
+      <div className="border border-lime-400 rounded-lg p-8 bg-black bg-opacity-30 backdrop-blur-lg w-full max-w-4xl text-center shadow-lg">
+        <h2 className="text-lime-400 text-4xl font-bold mb-6 tracking-wide transition-all duration-300 hover:drop-shadow-[0_0_10px_#a3e635]">
+          Achievements
+        </h2>
+
+        <p className="text-white text-lg leading-relaxed transition-all duration-500 hover:text-lime-300 hover:tracking-wide">
+          🏆{" "}
+          <span className="font-semibold text-lime-300">
+            Hackstreet 3.0 (2025):
+          </span>
+          Secured <span className="text-lime-400 font-bold">1st Place</span>{" "}
+          with my team in Hackstreet 3.0, a hackathon organized by IEEE at JIIT
+          Noida.
+        </p>
+
+        <p className="mt-4 text-white text-lg leading-relaxed transition-all duration-500 hover:text-lime-300 hover:tracking-wide">
+          🎖️{" "}
+          <span className="font-semibold text-lime-300">
+            HackJKLU v4.0 (2025):
+          </span>
+          Secured <span className="text-lime-400 font-bold">4th Place</span>{" "}
+          with my team in HackJKLU v4.0, a hackathon organized by JK Lakshmipat
+          University, Jaipur.
+        </p>
+      </div>
     </div>
   );
 };
