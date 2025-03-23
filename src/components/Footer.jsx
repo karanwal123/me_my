@@ -103,8 +103,7 @@ const Footer = () => {
               <span className="text-white opacity-70">code</span>
               <span className="text-lime-400">&gt;</span>
               <span className="text-white opacity-50 mx-1">design</span>
-              <span className="text-lime-400">&lt;/</span>
-              <span className="text-white opacity-70">sleep</span>
+              <span className="mx-1 text-white opacity-50">sleep</span>
               <span className="text-lime-400">&lt;/</span>
               <span className="text-white opacity-70">repeat</span>
               <span className="text-lime-400">&gt;</span>
