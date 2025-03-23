@@ -13,9 +13,9 @@ const sections = [
     route: "/home",
   },
   {
-    title: "Who am I ???",
-    description: "A deep dive into my journey and identity.",
-    route: "/who-am-i",
+    title: "Projects",
+    description: "My projects, experiments, and collaborations.",
+    route: "/projects",
   },
   {
     title: "Design",
@@ -24,7 +24,7 @@ const sections = [
   },
   {
     title: "Tech + Achievements",
-    description: "Innovations, projects, and milestones.",
+    description: "Tech-Stack and milestones.",
     route: "/tech-achievements",
   },
   {
