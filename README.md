@@ -3,3 +3,4 @@ Technologies Used
 React JS: A JavaScript library for building user interfaces.
 GSAP: A powerful JavaScript animation library for creating high-performance animations.
 and I'm still working :)
+![image](https://github.com/user-attachments/assets/2049a423-04d3-49f4-a176-5e40037b8614)
