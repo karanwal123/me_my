@@ -1,6 +1,7 @@
 import { Cpu, Trophy, Quote } from "lucide-react"; // Importing icons
 import { useState, useEffect, useRef } from "react";
 import gsap from "gsap";
+import GitHubCalendar from "react-github-calendar";
 import AnimatedQuoteBox from "../components/AnimatedQuoteBox ";
 
 const Tech = () => {
@@ -102,6 +103,32 @@ const Tech = () => {
           University, Jaipur.
         </p>
       </div>
+      <div className="border border-lime-400 rounded-lg p-8  bg-opacity-30 backdrop-blur-lg w-full max-w-4xl text-center shadow-lg overflow-hidden">
+      <h2 className="text-lime-400 text-4xl font-bold mb-6 tracking-wide transition-all duration-300 hover:drop-shadow-[0_0_10px_#a3e635]">
+        GitHub Contributions
+      </h2>
+      
+      <div className="w-full overflow-x-auto">
+        <div className="inline-block min-w-full">
+          <GitHubCalendar
+            username="karanwal123"
+            colorScheme="light"
+            blockSize={12}
+            blockMargin={4}
+            fontSize={16}
+            styles={{
+              background: 'transparent',
+              text: '#ffffff',
+              grade4: '#a3e635',
+              grade3: '#86cc29',
+              grade2: '#66a80f',
+              grade1: '#477c05',
+              grade0: '#1a2634'
+            }}
+          />
+        </div>
+      </div>
+    </div>
     </div>
   );
 };
