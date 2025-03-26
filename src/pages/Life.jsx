@@ -1,7 +1,6 @@
-import { Info, User, Heart } from "lucide-react";
+import { Info, User, Heart, Music } from "lucide-react";
 import { useState, useEffect, useRef } from "react";
 import gsap from "gsap";
-import AnimatedQuoteBox from "../components/AnimatedQuoteBox ";
 
 const Life = () => {
   const [visible, setVisible] = useState(false);
@@ -51,20 +50,31 @@ const Life = () => {
       {/* Tech Stack Section */}
       <div className="border border-lime-400 rounded-lg p-8 bg-black bg-opacity-30 backdrop-blur-lg w-full max-w-4xl text-center shadow-lg">
         <h2 className="text-lime-400 text-4xl font-bold mb-6 tracking-wide transition-all duration-300 hover:drop-shadow-[0_0_10px_#a3e635]">
-            Life
+          Life
         </h2>
 
         <p className="text-white text-lg leading-relaxed transition-all duration-500 hover:text-lime-300 hover:tracking-wide">
           Hey there! By now, you probably know my name—Aditya (yeah, one of the
-          most common names out there, but hey, my surname makes up for it ).
+          most common names out there, but hey, my surname makes up for it 😉).
           I'm currently pursuing my B.Tech in Computer Science at LNMIIT,
           Jaipur. When I’m not buried in code, you’ll find me scrolling
           endlessly on Pinterest or vibing to some pop music. Oh, and fun
           fact—I’m absolutely terrible at academics (but we don’t talk about
-          that) and I LOVE CHAI ..
+          that) and I LOVE CHAI ☕.
         </p>
       </div>
-      
+
+      {/* Spotify Button */}
+      <a
+        href="https://open.spotify.com/user/adityakaranwal"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="flex items-center justify-center gap-4 px-10 py-5 bg-gradient-to-r from-green-500 to-green-400 text-black font-bold text-2xl rounded-full shadow-lg transition-all 
+             hover:scale-110 hover:from-green-400 hover:to-green-300 hover:shadow-[0px_0px_20px_#22c55e] 
+             animate-pulse"
+      >
+        <Music size={30} className="animate-spin-slow" /> Spotify
+      </a>
     </div>
   );
 };
