@@ -3,6 +3,7 @@ import HomePage from "./components/HomePage";
 import Design from "./pages/Design";
 import Tech from "./pages/Tech";
 import Life from "./pages/Life";
+import Projects from "./pages/Projects";
 
 function AppRoutes() {
   return (
@@ -12,6 +13,7 @@ function AppRoutes() {
       <Route path="/design" element={<Design />} />
       <Route path="/tech-achievements" element={<Tech />} />
       <Route path="/life" element={<Life />} />
+      <Route path="/projects" element={<Projects />} />
       <Route path="*" element={<h1 className="text-white">404 Not Found</h1>} />
     </Routes>
   );
