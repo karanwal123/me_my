@@ -22,7 +22,7 @@ const HomePage = () => {
             { text: "CODE |", icon: Code, color: "text-lime-400" },
             { text: "DESIGN |", icon: PenTool, color: "text-white" },
             { text: "SLEEP |", icon: Moon, color: "text-lime-400" },
-            { text: "REPEAT |", icon: Repeat, color: "text-white" },
+            { text: "REPEAT ", icon: Repeat, color: "text-white" },
           ].map(({ text, icon: Icon, color }, index) => (
             <div key={index} className="relative group">
               <span

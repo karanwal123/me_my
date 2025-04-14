@@ -38,20 +38,6 @@ const Design = () => {
       image: "/path/to/image4.jpg",
       description: "Investment tracking and portfolio management interface",
     },
-    {
-      id: 5,
-      title: "Healthcare Portal",
-      category: "Web Design",
-      image: "/path/to/image5.jpg",
-      description: "Patient management system with accessibility focus",
-    },
-    {
-      id: 6,
-      title: "Creative Agency Website",
-      category: "Web Design",
-      image: "/path/to/image6.jpg",
-      description: "Dynamic portfolio site with interactive elements",
-    },
   ]);
 
   const [filter, setFilter] = useState("All");
